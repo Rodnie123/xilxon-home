@@ -2279,8 +2279,7 @@ img.brain2a {
 }
 
 .footer{
-    position: absolute;
-    bottom: -145px;
+ 
     left: 0;
     width: 100%;
     margin-top: 25px;
@@ -2289,8 +2288,7 @@ img.brain2a {
     color: #fff;
 }
 .footer-container{
-    display: block;
-    width: 1250px;
+
     margin: 0 auto;
     padding: 25px;
     text-align: left;
@@ -3952,6 +3950,8 @@ img.brain2a {
     background-color: white;
 }
 .close-mobile {
+    position: relative;
+    z-index: 9999;
     border: 1px solid black;
     border: none;
     margin-right: 20px;
@@ -6310,6 +6310,9 @@ hr{
  .header-buttons .button {
     width: 100%;
  }
+ .footer-container {
+    width: 100%;
+ }
   }
 @media (min-width: 1024px) {
     .about-l {
@@ -6341,5 +6344,8 @@ hr{
  }
  .header-buttons .button {
     width: 300px
+ }
+ .footer-container {
+    width: 90%;
  }
 }
